@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 myheading = "What's your favorite Pokemon?"
-mytitle = "Top 3 Starters"
+mytitle = "Top Starters"
 mylabels = ['Bulbasaur', 'Squirtle', 'Charmander','Pikachu']
 myvalues = [16,14,15,18]
 color1 = 'green'
@@ -23,7 +23,7 @@ mydata = go.Pie(
     values=myvalues,
     labels=mylabels,
     marker={'colors': [color1, color2, color3,color4],
-            'line': {'color': 'white', 'width': 5}}
+            'line': {'color': 'black', 'width': 2}}
 )
 mylayout = go.Layout(
     title = mytitle
